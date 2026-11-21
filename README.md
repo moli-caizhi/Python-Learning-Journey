@@ -1,5 +1,5 @@
 # Python-Learning-Journey
-用来记录我的Python学习路程，记录在学习Python中各个阶段所练习的代码，包括一些笔记和练习的小项目。
+用来记录我的Python学习路程
 ## 项目结构
 - Python入门
 - Python核心语法
@@ -19,14 +19,14 @@
 - **包**：学习怎么调用 utils 中的功能
 - **面向对象编程**：学习了面向对象的基础知识，完成了一个教务管理系统的小项目案例，在此基础上完成了购物车管理系统的练习
 - **异常处理**：学习了怎么处理异常，在此基础上处理了教务管理系统小项目案例出现的异常
-### AI应用
+### 3. AI应用
 - 学习了文件的基本操作和扩展操作  
-- 学习了基于APIfox通过API_KEY调用deepseek官方模型和调用基于Ollama本地部署的seepseek-r1:8b  
+- 学习了基于APIfox通过API_KEY调用deepseek官方模型和调用基于Ollama本地部署的deepseek-r1:8b  
 - 学习了通过Python调用 DeepSeek大模型API的测试  
 - 学习了Streamlit网页界面的基础  
 - 学习了JSON数据的读写与解析
 - 基于以上基础完成了AI伙伴小项目的练习，包括学习了怎么流式输出
-### Python爬虫
-- 学习了xpath语法基础
+### 4. Python爬虫
+- 通过resuorces文件的仙逆人物志.html学习了xpath语法基础
 
 
