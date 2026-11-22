@@ -22,10 +22,10 @@
 ### 3. AI应用
 - 学习了文件的基本操作和扩展操作  
 - 学习了基于APIfox通过API_KEY调用deepseek官方模型和调用基于Ollama本地部署的deepseek-r1:8b  
-- 学习了通过Python调用 DeepSeek大模型API的测试  
+- 学习了通过Python调用 DeepSeek大模型API的测试，需要使用openai和os模块  
 - 学习了Streamlit网页界面的基础  
-- 学习了JSON数据的读写与解析
-- 基于以上基础完成了AI伙伴小项目的练习，包括学习了怎么流式输出
+- 学习了基于json模块对JSON数据的读写与解析
+- 基于以上基础完成了AI伙伴小项目的练习，包括学习了怎么流式输出，使用datetime模块获得系统时间
 ### 4. Python爬虫
 - 了解爬虫的基本流程和 robots 协议，使用 requests 发送 HTTP 请求抓取网页
 - 使用 lxml 配合 xpath 语法解析 HTML、提取数据，在 resources/仙逆人物志.html 上练习 xpath 的各种写法
