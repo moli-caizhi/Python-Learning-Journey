@@ -36,8 +36,18 @@ Python 入门练习，用来熟悉 PyCharm 的运行环境和 Python 的基本�
 - 学习了正则表达式基础和正则表达式基本语法，需要使用 re 模块
 - 在这些基础上完成了爬取高分电影榜单 Top100 数据，并保存在 CSV 文件中的案例，最后利用正则表达式对这些数据进行数据清洗
 
+### 5. 数据分析
+- 学习了 Jupyter Notebook 的基本使用，在 Notebook 中边写边运行代码
+- 学习了 Pandas 的 DataFrame 和 Series 两种数据结构，以及数据的读取、查看、筛选、排序、分组统计（groupby）等基础操作
+- 学习了 Matplotlib 的基础绘图，使用折线图、柱状图、饼图对数据进行可视化展示
+- 在这些基础上完成了 TMDB-TOP300 电影榜单分析案例，统计每年电影数量、不同语言和类型分布、评分占比，并生成对应的图表
+
+### 6. Python_Web应用
+- **面向对象高级**：在面向对象基础之上，进一步学习了封装（私有属性与私有方法）、继承、方法重写（override）、多继承、多态以及鸭子类型，分别用单独的练习文件逐个验证
+- **图书管理系统综合案例**：使用抽象类 `ABC` 和抽象方法 `@abstractmethod` 定义会员规范，普通会员和 VIP 会员作为子类实现不同的最大借阅数量；通过 json 文件加载图书和会员数据，实现会员登录、借书、还书、查看借阅列表等功能，综合运用了封装、继承、多态和 JSON 数据读写
+
 ## 环境依赖
 - Python 3.14.10
-- 第三方库：`streamlit`、`openai`、`lxml`、`requests`
+- 第三方库：`streamlit`、`openai`、`lxml`、`requests`、`pandas`、`matplotlib`、`jupyter`
 - 安装命令：`pip install streamlit openai requests lxml`
 - DeepSeek 的 API_KEY 通过环境变量配置，**不要直接把密钥写在代码内**
