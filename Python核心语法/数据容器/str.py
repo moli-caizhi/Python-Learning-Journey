@@ -37,7 +37,7 @@
 
 
 #--------------------str常用方法--------------------
-# s = "  Hello-Python-Hello-Python  "
+s = "  Hello-Python-Hello-Python  "
 # # find()查找指定字符串第一次出现的索引位置
 # index = s.find("-")
 # print(index)
@@ -55,10 +55,18 @@
 # print(sl)
 #
 # # split() 将字符串按照指定切割 -- 列表
-# slist = s.split("-")
-# print(slist)
-#
-# # strip() 去除字符串两端空格
+slist = s.split("-") # ['  Hello', 'Python', 'Hello', 'Python  ']
+print(slist)
+
+for i in slist:
+    print(i) #  Hello
+             # Python
+             # Hello
+             # Python
+
+
+
+# strip() 去除字符串两端空格
 # ss = s.strip()
 # print(ss)
 #
@@ -110,12 +118,12 @@
 # 2.将用户输入的10个字符串,反转后全部转换为大写,然后记录在列表中,最后将列表内容,遍历输出出来
 
 # 1.接收用户输入的字符串
-s = input("请输入10个字符串: ")
-# 2.将字符串反转,全部转换为大写 upper()
-new_str = s[::-1].upper()
-print(new_str)
-# 3.记录在列表中 list
-list1 = [new_str]
-# 4.将列表内容,遍历输出出来 for
-for i in list1:
-    print(f"元素: {i}")
+# s = input("请输入10个字符串: ")
+# # 2.将字符串反转,全部转换为大写 upper()
+# new_str = s[::-1].upper()
+# print(new_str)
+# # 3.记录在列表中 list
+# list1 = [new_str]
+# # 4.将列表内容,遍历输出出来 for
+# for i in list1:
+#     print(f"元素: {i}")
